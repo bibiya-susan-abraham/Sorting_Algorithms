@@ -2,7 +2,7 @@
 body{
 		/*background-image: url("https://cdn.wallpapersafari.com/67/66/nDuvAM.jpg");*/
 		color: #F5FFFA;
-		background-image: url("https://lh3.googleusercontent.com/proxy/JNtQPJP_68Vg5J85wnUy4hqsIgHVdpTvOtieI7occ-koZzSqxvFDG0I_mITGaY42ZDow89ixowQ53enI9ugOmMUVvjokOyJS25eNtMgQpl6SBdvVMSpQnKOqd4kV7zkQ3WX0CQwmt3-NfYtPiaU6dZf9mclnddQ");
+		background-image: ./back.jpg;
 		background-size: contain;
 	}
 nav{
