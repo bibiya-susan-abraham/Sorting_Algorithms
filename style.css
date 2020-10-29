@@ -2,7 +2,7 @@
 body{
 		/*background-image: url("https://cdn.wallpapersafari.com/67/66/nDuvAM.jpg");*/
 		color: #F5FFFA;
-		background-image: ./back.jpg;
+		background-image: url("https://bibiya-susan-abraham.github.io/Sorting_Algorithms/back.jpg");
 		background-size: contain;
 	}
 nav{
