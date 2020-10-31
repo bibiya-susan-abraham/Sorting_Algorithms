@@ -20,7 +20,7 @@
 	</nav>
 	<section id="top" class = "padd" style="margin-right: 50px;margin-left: 50px">
 		<center>
-			<h1>QUICK SORT</h1><br>
+			<h1 style="color: #ff0000">QUICK SORT</h1><br>
 		<img src = "./quick.gif"
 		alt = "Sorting Example" style="width: 500px;height: 150px;box-shadow: 10px 10px 10px 0px rgba(255, 255, 255, 0.3);">
 		</center>
@@ -28,10 +28,10 @@
 		QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot.The key process in quickSort is partition(). Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x.
 		<br><br>
 
-		<b style="font-size: 20px;color: #e4e4a1">Example</b><br>
+		<b style="font-size: 20px;color: #8053ac">Example</b><br>
 		 In the array {52, 37, 63, 14, 17, 8, 6, 25} , we take 25 as pivot. So after the first pass, the list will be changed like this. Hence after the first pass, pivot will be set at its position, with all the elements smaller to it on its left and all the elements larger than to its right.
 		<br><br>
-		<b style="font-size: 20px;color: #e4e4a1">Algorithm</b> &nbsp;&nbsp;&nbsp;&nbsp;Quicksort(A[l..r])
+		<b style="font-size: 20px;color: #8053ac">Algorithm</b> &nbsp;&nbsp;&nbsp;&nbsp;Quicksort(A[l..r])
 		<pre style="font-family: times new roman;color: white;">
 			//Sorts a subarray by quicksort
 			//Input : A subarray A[l..r] of A[0..n-1], defined by its left and right indices // l and r
@@ -41,7 +41,7 @@
 				Quicksort(A[l..s-1])
 				Quicksort(A[s+1..r])
 		</pre>
-		 <b style="font-size: 20px;color: #e4e4a1">Algorithm </b>&nbsp;&nbsp;&nbsp;&nbsp;Partition(A[l..r])
+		 <b style="font-size: 20px;color: #8053ac">Algorithm </b>&nbsp;&nbsp;&nbsp;&nbsp;Partition(A[l..r])
 		 <pre style="font-family: times new roman;color: white;">
 		 	//Partitions a subarray by using its first element as a pivot
 		 	//Input : A subarray A[i..r] of A[0..n — 1}, defined by its left and right  //indices l and r (l < r)
@@ -57,11 +57,11 @@
 		 	swap (A[l] , A[j])
 		 	return j
 		 </pre>
-		<b style="font-size: 20px;color: #e4e4a1">Time Complexity</b><br>
+		<b style="font-size: 20px;color:#8053ac">Time Complexity</b><br>
 			Best case&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: O(nlogn)<br>
 			Worst case&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: O(n<sup>2</sup>)<br>
 			Average case&nbsp;&nbsp;: O(nlogn)<br><br>
-		<b style="font-size: 20px;color: #e4e4a1">Space Complexity : </b>
+		<b style="font-size: 20px;color: #8053ac">Space Complexity : </b>
 			O(logn)
 	</section>
 	<br><br>
